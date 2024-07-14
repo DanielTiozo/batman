@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+*{
+    border: 0;
+    padding: 0;
+    background-color: black;
+    list-style: none;
+    text-decoration: none;
+}
+
+header{
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav{
+    width: 60%;
+}
+
+ul{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+li{
+    list-style: none;
+    color: aliceblue;
+    cursor: pointer;
+    font-size: 19px;
+    transition: 0.5s;
+    font-family: "Kdam Thmor Pro", sans-serif;
+}
+
+li:hover{
+    color: #e21617;
+}
+
+#logo{
+    width: 150px;
+    height: auto;
+}
+
+#banner{
+    background-image: url("https://preview.redd.it/6092ltrt8nt71.jpg?auto=webp&s=c26d698d5d92796be9c6ab47f22dba63a7be96c3");
+    background-position: 50% 50%;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+}
+
+#trailer-container{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+}
+
+.content{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.trailer{
+    width: 50%;
+}
+
+#sinopse{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 30px;
+}
+
+.description{
+    color: #fff;
+    font-size: 19px;
+    font-family: "Kdam Thmor Pro", sans-serif;
+    width: 70%;
+}
+
+.button{
+    width: 200px;
+    height: 60px;
+    background-color: #d21617;
+    color: #fff;
+    padding: 8px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .8s;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    margin-top: 25px;
+}
+
+.button:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+.actor-cards-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.cards-content{
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 20px;
+    column-gap: 40px;
+}
+
+.card{
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 20px 10px;
+    color: #fff;
+    font-size: 17px;
+    font-family: "Kdam Thmor Pro", sans-serif;
+}
+
+.card:hover{
+    transform: scale(1.02);
+}
+
+.banner-1{
+    background-image: url("https://s2-techtudo.glbimg.com/48sgHe4pceeMCiEFUp07fXKKHG8=/0x0:1500x1000/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2023/5/2/JhbDZXSN67wjcAqFLALQ/robert-pattinson-811119484f574723885b5bfbb109f749.jpg");
+}
+
+.banner-2{
+    background-image: url("https://rollingstone.uol.com.br/media/_versions/zoe_kravitz_divulgacao_widelg.jpg");
+}
+
+.banner-3{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReVOM6SI1jmSAp8J0GG8ZfoZf0uImmuqenhA&s");
+}
